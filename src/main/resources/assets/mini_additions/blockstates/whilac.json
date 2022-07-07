@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "mini_additions:block/whilac_bottom"
+    },
+    "half=upper": {
+      "model": "mini_additions:block/whilac_top"
+    }
+  }
+}
