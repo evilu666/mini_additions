@@ -1,0 +1,25 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mini_additions:whilac"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:white_dye",
+      "count": 3
+    },
+    {
+      "item": "minecraft:green_dye",
+      "chance": 0.333
+    }
+  ],
+  "processingTime": 100,
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

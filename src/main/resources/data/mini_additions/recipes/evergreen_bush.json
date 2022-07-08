@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:kelp"
+    },
+		{
+			"item": "minecraft:green_dye"
+		},
+		{
+			"item": "minecraft:bone_meal"
+		}
+  ],
+  "result": {
+    "item": "mini_additions:evergreen_bush",
+    "count": 1
+  }
+}

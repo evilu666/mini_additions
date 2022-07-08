@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mini_additions:block/evergreen_bush_top"
+  }
+}

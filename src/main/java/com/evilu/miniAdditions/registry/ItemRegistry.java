@@ -15,7 +15,7 @@ public class ItemRegistry {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MiniAdditionsMod.MODID);
 
     public static final RegistryObject<Item> BLOSE_BUSH = ITEMS.register("blose_bush", () -> new DoubleHighBlockItem(BlockRegistry.BLOSE_BUSH.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
-
+    public static final RegistryObject<Item> EVERGREEN_BUSH = ITEMS.register("evergreen_bush", () -> new DoubleHighBlockItem(BlockRegistry.EVERGREEN_BUSH.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
     public static final RegistryObject<Item> WHILAC = ITEMS.register("whilac", () -> new DoubleHighBlockItem(BlockRegistry.WHILAC.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
 
     public static void registerItems() {

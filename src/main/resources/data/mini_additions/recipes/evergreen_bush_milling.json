@@ -1,0 +1,30 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mini_additions:blose_bush"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:green_dye",
+      "count": 4
+    },
+    {
+      "item": "minecraft:brown_dye",
+      "count": 1
+    },
+    {
+      "item": "minecraft:brown_dye",
+      "count": 2,
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 50,
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

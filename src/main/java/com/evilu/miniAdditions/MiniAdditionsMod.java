@@ -36,6 +36,7 @@ public class MiniAdditionsMod
 
     private void clientSetup(final FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(BlockRegistry.BLOSE_BUSH.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(BlockRegistry.EVERGREEN_BUSH.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(BlockRegistry.WHILAC.get(), RenderType.cutout());
     }
 
